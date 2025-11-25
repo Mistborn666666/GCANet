@@ -11,7 +11,7 @@ In complex auditory environments, individuals rely on selective auditory attenti
 2. **Speech CNN for Audio** – Speech spectrograms are encoded by a CNN to extract complementary audio features.
 3. **Cross-Attention Fusion** – EEG and audio features are aligned and fused via cross-attention, and the fused representation is fed into a fully connected layer for AAD classification.
 
-## TF-GCN 
+## TF-GCN Module
 ![TF-GCN](https://github.com/user-attachments/assets/1e062733-0851-4161-a7ec-db370d140574)
 **Fig. 2.** EEG Temporal-Frequency GCN (TFGCN) module.
 1. **Temporal Features** – Multi-scale convolutions extract temporal representations from EEG signals.  
